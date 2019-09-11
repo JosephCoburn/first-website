@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background: url("https://i.imgur.com/3kKCAk5.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+  background-position: center;
+  color: #aaa;
+  font-family: georgia;
+}
+p {
+  font-size: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+img {
+  border: 6px solid #91d9cd;
+  border-radius: 130px;
+ }
+h1 {
+  font-family: 'Unica One', cursive;
+  color: #91d9cd;
+  font-size: 38px;
+}
+
+h2 {
+  font-family: 'Unica One', cursive;
+  color: #91d9cd;
+  font-size: 20px;
+}

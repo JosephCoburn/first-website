@@ -1,29 +1,71 @@
 body {
   text-align: center;
   background: url("https://i.imgur.com/3kKCAk5.jpg");
- background-size: cover;
- background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  color: #aaa;
-  font-family: georgia;
 }
-p {
-  font-size: 24px;
-  max-width: 800px;
-  margin: 0 auto;
+
+.img-container {
+  padding: 60px 0;
 }
+
 img {
   border: 6px solid #91d9cd;
   border-radius: 130px;
- }
-h1 {
-  font-family: 'Unica One', cursive;
-  color: #91d9cd;
-  font-size: 38px;
 }
 
-h2 {
+.content-container {
+  margin: 0 auto;
+  max-width: 60%;
+  padding: 5vw;
+}
+
+.header {
   font-family: 'Unica One', cursive;
   color: #91d9cd;
-  font-size: 20px;
+}
+
+.content {
+  font-family: georgia;
+  color: #aaa;
+  font-size: 22px;
+  padding: 0 0 65px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #91d9cd;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer {
+  font-family: 'Unica One', cursive;
+  color: #91d9cd;
+}
+
+@media only screen and (max-width: 700px) {
+
+  img {
+    max-width: 50%;;
+    margin: 0 auto;
+  }
+
+  .content {
+    font-size: 3.2vw;
+    margin: 0 auto;
+    padding: 0 0 4vh 0;
+  }
+
+  .header {
+    font-size: 5vw;
+  }
+
+  .footer {
+    font-size: 3vw;
+  }
 }
